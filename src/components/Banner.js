@@ -29,7 +29,7 @@ export default function Banner() {
     return str?.length > n ? str.substr(0, n-1) + '...' : str;
   }
   
-  console.log(movie)
+  
 
   if(!isClicked){
     return (
