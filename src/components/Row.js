@@ -24,6 +24,11 @@ export default function Row({title, fetchUrl, isLargeRow, id}) {
 		console.log(movie)
 	}
 
+	if(modalOpen){
+		document.querySelector('body').style.overflow = 'hidden';
+	} else {
+		document.querySelector('body').style.overflow = '';
+	}
 	
   return (
 	<section className='row'>
