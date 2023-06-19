@@ -18,6 +18,9 @@
 		position:relative;
 		height:600px;
 	}
+	.banner::before {
+		height: 600px;
+	}
 	.banner--fadeBottom{
 		position:absolute;
 		bottom:0;
